@@ -1,0 +1,39 @@
+<!--Time elapsed/Total Time-->
+
+<!--Quiz View-->
+<!--Question Text-->
+<div class="container question-center">
+    <h3>Question {{getIndex()+1}}: {{getQuestion(getIndex()).getQuestionText()}}</h3>
+    <div style="color:purple;">{{ifMarkedForReview()}}</div>
+    <!--Marked for Review Text-->
+</div>
+<!--Answer 1-4 in column format-->
+<ol type="A" class="container answer-center">
+    <li *ngFor="let answer of getQuestion(getIndex()).getAnswers()" class="col-md-auto">
+        <button class="btn btn-answer {{answer.getButtonColor()}}"
+            (click)="getQuestion(getIndex()).selectAnswer(answer)">{{answer.getAnswerText()}}</button>
+    </li>
+</ol>
+
+
+<!--Mark For Review Button-->
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-2">
+            <button (click)="getQuestion(getIndex()).toggleMarkedForReview()" class="btn btn-purple">Mark for
+                Review</button>
+        </div>
+        <!--First, Prev, Next, Last-->
+        <div class="col-md-auto"><button (click)="first()" class="btn btn-dark">First</button>
+        </div>
+        <div class="col-md-auto">
+            <button (click)="prev()" class="btn btn-dark">Previous</button>
+        </div>
+        <div class="col-md-auto">
+            <button (click)="next()" class="btn btn-primary">Next</button>
+        </div>
+        <div class="col-md-auto">
+            <button (click)="last()" class="btn btn-dark">Last</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,111 @@
+{
+    "quizName": "Test 1",
+    "timeLimit": 1200,
+    "questions": [
+        {
+            "questionText": "What is 2+2?",
+            "answers": [
+                {
+                    "answerText": "1",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "2",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "3",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "4",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "questionText": "What is 5+7?",
+            "answers": [
+                {
+                    "answerText": "25",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "12",
+                    "isCorrect": true
+                },
+                {
+                    "answerText": "8",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "57",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "questionText": "What is 8+28?",
+            "answers": [
+                {
+                    "answerText": "36",
+                    "isCorrect": true
+                },
+                {
+                    "answerText": "828",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "29",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "16",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "questionText": "What is 20+0?",
+            "answers": [
+                {
+                    "answerText": "200",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "12",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "20",
+                    "isCorrect": true
+                },
+                {
+                    "answerText": "9",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "questionText": "What is 1+2?",
+            "answers": [
+                {
+                    "answerText": "3",
+                    "isCorrect": true
+                },
+                {
+                    "answerText": "4",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "8",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "7",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+}

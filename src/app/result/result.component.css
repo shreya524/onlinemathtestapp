@@ -1,0 +1,21 @@
+.Correct{
+    color: green;
+    font-weight: bold;
+}
+
+.Incorrect{
+    color: red;
+    font-weight: bold;
+}
+
+.incorrectStrike{
+    color: red;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.question-center{
+    float: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}

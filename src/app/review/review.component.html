@@ -1,0 +1,10 @@
+<!--Review view-->
+<!--All questions in table format-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-auto" *ngFor="let question of getQuestions()">
+            <button (click)="GoToQuestion(getQuestionNum(question))" class="btn {{getQuestionColor(question)}}">Q{{getQuestionNum(question)+1}}:
+                {{getIfQuestionTouched(question)}}</button>
+        </div>
+    </div>
+</div>

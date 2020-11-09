@@ -1,0 +1,37 @@
+.btn-purple
+{
+    color:white;
+    background-color: black;
+}
+
+.btn-answer
+{
+    padding-top:0.2%;
+    padding-bottom: 0.2%;
+    margin-bottom: 0.3%;
+}
+
+.btn-info
+{
+    padding-top:0.2%;
+    padding-bottom: 0.2%;
+    margin-bottom: 0.3%;
+}
+
+.centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .question-center{
+      float: none;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+  .answer-center{
+    float: none;
+    margin-left: 21%;
+    margin-right: 21%;
+}

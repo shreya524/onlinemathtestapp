@@ -1,0 +1,23 @@
+<!--Submit View-->
+<!--Score-->
+<!--Pass/Fail Status-->
+<div class="container text-center">
+    <h4 style="padding-bottom: 0.5%">Total Score: {{getScoreFraction()}} - Status: {{getStatus()}}</h4>
+</div>
+<!--Time taken-->
+<!--Question-->
+<div class="container question-center" *ngFor="let question of getQuestions()">
+    <h4>Question {{getQuestionNum(question)+1}}: {{question.getQuestionText()}} -
+        <span class="{{correctStatus(question)}}">{{correctStatus(question)}}</span></h4>
+    <!--Answers list-->
+    <ol type="A">
+        <li *ngFor="let answer of question.getAnswers()" class="{{answerColor(answer)}}">
+            {{answer.getAnswerText()}}</li>
+    </ol>
+</div>
+
+
+<!--Try Again Button-->
+<div class="container text-center">
+    <button class="btn btn-dark" onclick="location.reload()">Try Again</button>
+</div>
